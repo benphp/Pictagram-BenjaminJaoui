@@ -86,7 +86,6 @@ video
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Nunito', sans-serif;
 }
 
 article,
@@ -188,20 +187,6 @@ h1 {
   grid-template-rows: auto 1fr;
 }
 
-.legend {
-  border: solid 1px #DBDBDB;
-  background: #FBFBFB;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.legend a {
-  text-decoration: none;
-}
-
-.legend a:hover {
-  text-decoration: underline;
-}
 
 .titre::before, 
 .like::before {

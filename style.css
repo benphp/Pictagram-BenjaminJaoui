@@ -17,10 +17,9 @@ main {
 
 header{
   display: flex;
-  background-color:  #BD081C;
+  background-color:  black;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-family: 'Nunito', sans-serif;
   color: #FFFFFF;
 
 }
@@ -30,6 +29,7 @@ header{
   margin: 10px; 
   margin-bottom: 10px; 
   padding-top: 5px;
+  font-size: 40px;
 }
 
 .like{

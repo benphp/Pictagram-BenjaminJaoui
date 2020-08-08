@@ -25,7 +25,7 @@ getLikedPosts();
 // À voir plus tard
 const getPosts = (justLiked = 0) => {
     main.innerHTML = '';
-    fetch('http://localhost:8888/Pinterest/api.php') // requête http
+    fetch('http://localhost:8888/Pictagram/api.php') // requête http
         .then((response) => {
             // réponse du serveur
             return response.json() // récupération du json dans la réponse et conversion en objet js
@@ -110,7 +110,7 @@ justPostLiked();
 
 const getPostsSearch = (search) => {
     main.innerHTML = '';
-    fetch('http://localhost:8888/Pinterest/api.php?tag='+search) // requête http
+    fetch('http://localhost:8888/Pictagram/api.php?tag='+search) // requête http
         .then((response) => {
             // réponse du serveur
             return response.json() // récupération du json dans la réponse et conversion en objet js

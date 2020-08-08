@@ -34,7 +34,7 @@ export default class PostCard extends HTMLElement {
       <div class="wrapper">
         <div>
           <img src="./img/${img}" class="border-bottom">  
-          <div class="legend">
+          <div>
             <h1 class="titre">${title}</h1>
             <div class="tags">
               <p>${contentTags}</p>

@@ -1,0 +1,3 @@
+Changer le port en fonction du système d'exploitation
+8889 Pour MAC
+3306 Pour Windows

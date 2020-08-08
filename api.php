@@ -2,8 +2,8 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
-const HOST = 'localhost:8889';
-const DB = 'pinterest';
+const HOST = 'localhost';
+const DB = 'pictagram';
 const USER = 'root';
 const PASSWORD = 'root';
 
